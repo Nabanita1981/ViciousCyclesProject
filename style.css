@@ -6,12 +6,15 @@
 header {
     display:inline-block;
     width: 100%;
-    font-size:30px;
+    font-size:4em;
     font-family: 'Times New Roman', Times, serif;
     background-color: aqua;
-    height: 100px;
+    height: 200px;
+    text-align: center;
+    color :#010B5B;
+   
 }
-
+body { background-color: #E7FBFB; }
 .logo{
     padding-left: 20px;
     padding-top: 30px;
@@ -21,13 +24,13 @@ header {
 }
 header a {
     text-decoration: none;
-    color: black;
+
 }
 .menu{
     display: inline-block;
     padding-top: 20px;
     width: 1000px;
-    vertical-align: middle;
+    vertical-align: center;
     text-align: right;
 }
 .menu a {
